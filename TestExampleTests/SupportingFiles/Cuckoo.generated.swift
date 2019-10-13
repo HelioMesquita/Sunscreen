@@ -1,4 +1,4 @@
-// MARK: - Mocks generated from file: TestExample/Scenes/Home/HomeInteractor.swift at 2019-10-11 23:33:24 +0000
+// MARK: - Mocks generated from file: TestExample/Scenes/Home/HomeInteractor.swift at 2019-10-13 03:28:51 +0000
 
 //
 //  HomeInteractor.swift
@@ -305,7 +305,7 @@ import UIKit
 }
 
 
-// MARK: - Mocks generated from file: TestExample/Scenes/Home/HomePresenter.swift at 2019-10-11 23:33:24 +0000
+// MARK: - Mocks generated from file: TestExample/Scenes/Home/HomePresenter.swift at 2019-10-13 03:28:51 +0000
 
 //
 //  HomePresenter.swift
@@ -366,16 +366,16 @@ import UIKit
     
     
     
-     func weightBelowBormal()  {
+     func weightBelowNormal()  {
         
-    return cuckoo_manager.call("weightBelowBormal()",
+    return cuckoo_manager.call("weightBelowNormal()",
             parameters: (),
             escapingParameters: (),
             superclassCall:
                 
                 Cuckoo.MockManager.crashOnProtocolSuperclassCall()
                 ,
-            defaultCall: __defaultImplStub!.weightBelowBormal())
+            defaultCall: __defaultImplStub!.weightBelowNormal())
         
     }
     
@@ -411,46 +411,16 @@ import UIKit
     
     
     
-     func obesityI()  {
+     func obesity()  {
         
-    return cuckoo_manager.call("obesityI()",
+    return cuckoo_manager.call("obesity()",
             parameters: (),
             escapingParameters: (),
             superclassCall:
                 
                 Cuckoo.MockManager.crashOnProtocolSuperclassCall()
                 ,
-            defaultCall: __defaultImplStub!.obesityI())
-        
-    }
-    
-    
-    
-     func obesityII()  {
-        
-    return cuckoo_manager.call("obesityII()",
-            parameters: (),
-            escapingParameters: (),
-            superclassCall:
-                
-                Cuckoo.MockManager.crashOnProtocolSuperclassCall()
-                ,
-            defaultCall: __defaultImplStub!.obesityII())
-        
-    }
-    
-    
-    
-     func obesityIII()  {
-        
-    return cuckoo_manager.call("obesityIII()",
-            parameters: (),
-            escapingParameters: (),
-            superclassCall:
-                
-                Cuckoo.MockManager.crashOnProtocolSuperclassCall()
-                ,
-            defaultCall: __defaultImplStub!.obesityIII())
+            defaultCall: __defaultImplStub!.obesity())
         
     }
     
@@ -468,9 +438,9 @@ import UIKit
 	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresentationLogic.self, method: "showInvalidData()", parameterMatchers: matchers))
 	    }
 	    
-	    func weightBelowBormal() -> Cuckoo.ProtocolStubNoReturnFunction<()> {
+	    func weightBelowNormal() -> Cuckoo.ProtocolStubNoReturnFunction<()> {
 	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresentationLogic.self, method: "weightBelowBormal()", parameterMatchers: matchers))
+	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresentationLogic.self, method: "weightBelowNormal()", parameterMatchers: matchers))
 	    }
 	    
 	    func normalWeight() -> Cuckoo.ProtocolStubNoReturnFunction<()> {
@@ -483,19 +453,9 @@ import UIKit
 	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresentationLogic.self, method: "overweight()", parameterMatchers: matchers))
 	    }
 	    
-	    func obesityI() -> Cuckoo.ProtocolStubNoReturnFunction<()> {
+	    func obesity() -> Cuckoo.ProtocolStubNoReturnFunction<()> {
 	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresentationLogic.self, method: "obesityI()", parameterMatchers: matchers))
-	    }
-	    
-	    func obesityII() -> Cuckoo.ProtocolStubNoReturnFunction<()> {
-	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresentationLogic.self, method: "obesityII()", parameterMatchers: matchers))
-	    }
-	    
-	    func obesityIII() -> Cuckoo.ProtocolStubNoReturnFunction<()> {
-	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresentationLogic.self, method: "obesityIII()", parameterMatchers: matchers))
+	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresentationLogic.self, method: "obesity()", parameterMatchers: matchers))
 	    }
 	    
 	}
@@ -521,9 +481,9 @@ import UIKit
 	    }
 	    
 	    @discardableResult
-	    func weightBelowBormal() -> Cuckoo.__DoNotUse<(), Void> {
+	    func weightBelowNormal() -> Cuckoo.__DoNotUse<(), Void> {
 	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return cuckoo_manager.verify("weightBelowBormal()", callMatcher: callMatcher, parameterMatchers: matchers, sourceLocation: sourceLocation)
+	        return cuckoo_manager.verify("weightBelowNormal()", callMatcher: callMatcher, parameterMatchers: matchers, sourceLocation: sourceLocation)
 	    }
 	    
 	    @discardableResult
@@ -539,21 +499,9 @@ import UIKit
 	    }
 	    
 	    @discardableResult
-	    func obesityI() -> Cuckoo.__DoNotUse<(), Void> {
+	    func obesity() -> Cuckoo.__DoNotUse<(), Void> {
 	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return cuckoo_manager.verify("obesityI()", callMatcher: callMatcher, parameterMatchers: matchers, sourceLocation: sourceLocation)
-	    }
-	    
-	    @discardableResult
-	    func obesityII() -> Cuckoo.__DoNotUse<(), Void> {
-	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return cuckoo_manager.verify("obesityII()", callMatcher: callMatcher, parameterMatchers: matchers, sourceLocation: sourceLocation)
-	    }
-	    
-	    @discardableResult
-	    func obesityIII() -> Cuckoo.__DoNotUse<(), Void> {
-	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return cuckoo_manager.verify("obesityIII()", callMatcher: callMatcher, parameterMatchers: matchers, sourceLocation: sourceLocation)
+	        return cuckoo_manager.verify("obesity()", callMatcher: callMatcher, parameterMatchers: matchers, sourceLocation: sourceLocation)
 	    }
 	    
 	}
@@ -569,7 +517,7 @@ import UIKit
         return DefaultValueRegistry.defaultValue(for: (Void).self)
     }
     
-     func weightBelowBormal()   {
+     func weightBelowNormal()   {
         return DefaultValueRegistry.defaultValue(for: (Void).self)
     }
     
@@ -581,15 +529,7 @@ import UIKit
         return DefaultValueRegistry.defaultValue(for: (Void).self)
     }
     
-     func obesityI()   {
-        return DefaultValueRegistry.defaultValue(for: (Void).self)
-    }
-    
-     func obesityII()   {
-        return DefaultValueRegistry.defaultValue(for: (Void).self)
-    }
-    
-     func obesityIII()   {
+     func obesity()   {
         return DefaultValueRegistry.defaultValue(for: (Void).self)
     }
     
@@ -661,16 +601,16 @@ import UIKit
     
     
     
-     override func weightBelowBormal()  {
+     override func weightBelowNormal()  {
         
-    return cuckoo_manager.call("weightBelowBormal()",
+    return cuckoo_manager.call("weightBelowNormal()",
             parameters: (),
             escapingParameters: (),
             superclassCall:
                 
-                super.weightBelowBormal()
+                super.weightBelowNormal()
                 ,
-            defaultCall: __defaultImplStub!.weightBelowBormal())
+            defaultCall: __defaultImplStub!.weightBelowNormal())
         
     }
     
@@ -706,46 +646,16 @@ import UIKit
     
     
     
-     override func obesityI()  {
+     override func obesity()  {
         
-    return cuckoo_manager.call("obesityI()",
+    return cuckoo_manager.call("obesity()",
             parameters: (),
             escapingParameters: (),
             superclassCall:
                 
-                super.obesityI()
+                super.obesity()
                 ,
-            defaultCall: __defaultImplStub!.obesityI())
-        
-    }
-    
-    
-    
-     override func obesityII()  {
-        
-    return cuckoo_manager.call("obesityII()",
-            parameters: (),
-            escapingParameters: (),
-            superclassCall:
-                
-                super.obesityII()
-                ,
-            defaultCall: __defaultImplStub!.obesityII())
-        
-    }
-    
-    
-    
-     override func obesityIII()  {
-        
-    return cuckoo_manager.call("obesityIII()",
-            parameters: (),
-            escapingParameters: (),
-            superclassCall:
-                
-                super.obesityIII()
-                ,
-            defaultCall: __defaultImplStub!.obesityIII())
+            defaultCall: __defaultImplStub!.obesity())
         
     }
     
@@ -768,9 +678,9 @@ import UIKit
 	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresenter.self, method: "showInvalidData()", parameterMatchers: matchers))
 	    }
 	    
-	    func weightBelowBormal() -> Cuckoo.ClassStubNoReturnFunction<()> {
+	    func weightBelowNormal() -> Cuckoo.ClassStubNoReturnFunction<()> {
 	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresenter.self, method: "weightBelowBormal()", parameterMatchers: matchers))
+	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresenter.self, method: "weightBelowNormal()", parameterMatchers: matchers))
 	    }
 	    
 	    func normalWeight() -> Cuckoo.ClassStubNoReturnFunction<()> {
@@ -783,19 +693,9 @@ import UIKit
 	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresenter.self, method: "overweight()", parameterMatchers: matchers))
 	    }
 	    
-	    func obesityI() -> Cuckoo.ClassStubNoReturnFunction<()> {
+	    func obesity() -> Cuckoo.ClassStubNoReturnFunction<()> {
 	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresenter.self, method: "obesityI()", parameterMatchers: matchers))
-	    }
-	    
-	    func obesityII() -> Cuckoo.ClassStubNoReturnFunction<()> {
-	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresenter.self, method: "obesityII()", parameterMatchers: matchers))
-	    }
-	    
-	    func obesityIII() -> Cuckoo.ClassStubNoReturnFunction<()> {
-	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresenter.self, method: "obesityIII()", parameterMatchers: matchers))
+	        return .init(stub: cuckoo_manager.createStub(for: MockHomePresenter.self, method: "obesity()", parameterMatchers: matchers))
 	    }
 	    
 	}
@@ -826,9 +726,9 @@ import UIKit
 	    }
 	    
 	    @discardableResult
-	    func weightBelowBormal() -> Cuckoo.__DoNotUse<(), Void> {
+	    func weightBelowNormal() -> Cuckoo.__DoNotUse<(), Void> {
 	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return cuckoo_manager.verify("weightBelowBormal()", callMatcher: callMatcher, parameterMatchers: matchers, sourceLocation: sourceLocation)
+	        return cuckoo_manager.verify("weightBelowNormal()", callMatcher: callMatcher, parameterMatchers: matchers, sourceLocation: sourceLocation)
 	    }
 	    
 	    @discardableResult
@@ -844,21 +744,9 @@ import UIKit
 	    }
 	    
 	    @discardableResult
-	    func obesityI() -> Cuckoo.__DoNotUse<(), Void> {
+	    func obesity() -> Cuckoo.__DoNotUse<(), Void> {
 	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return cuckoo_manager.verify("obesityI()", callMatcher: callMatcher, parameterMatchers: matchers, sourceLocation: sourceLocation)
-	    }
-	    
-	    @discardableResult
-	    func obesityII() -> Cuckoo.__DoNotUse<(), Void> {
-	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return cuckoo_manager.verify("obesityII()", callMatcher: callMatcher, parameterMatchers: matchers, sourceLocation: sourceLocation)
-	    }
-	    
-	    @discardableResult
-	    func obesityIII() -> Cuckoo.__DoNotUse<(), Void> {
-	        let matchers: [Cuckoo.ParameterMatcher<Void>] = []
-	        return cuckoo_manager.verify("obesityIII()", callMatcher: callMatcher, parameterMatchers: matchers, sourceLocation: sourceLocation)
+	        return cuckoo_manager.verify("obesity()", callMatcher: callMatcher, parameterMatchers: matchers, sourceLocation: sourceLocation)
 	    }
 	    
 	}
@@ -884,7 +772,7 @@ import UIKit
         return DefaultValueRegistry.defaultValue(for: (Void).self)
     }
     
-     override func weightBelowBormal()   {
+     override func weightBelowNormal()   {
         return DefaultValueRegistry.defaultValue(for: (Void).self)
     }
     
@@ -896,22 +784,14 @@ import UIKit
         return DefaultValueRegistry.defaultValue(for: (Void).self)
     }
     
-     override func obesityI()   {
-        return DefaultValueRegistry.defaultValue(for: (Void).self)
-    }
-    
-     override func obesityII()   {
-        return DefaultValueRegistry.defaultValue(for: (Void).self)
-    }
-    
-     override func obesityIII()   {
+     override func obesity()   {
         return DefaultValueRegistry.defaultValue(for: (Void).self)
     }
     
 }
 
 
-// MARK: - Mocks generated from file: TestExample/Scenes/Home/HomeWorker.swift at 2019-10-11 23:33:24 +0000
+// MARK: - Mocks generated from file: TestExample/Scenes/Home/HomeWorker.swift at 2019-10-13 03:28:51 +0000
 
 //
 //  HomeWorker.swift

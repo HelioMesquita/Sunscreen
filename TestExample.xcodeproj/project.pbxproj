@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03D63B2B3011C7496D8BB3A1 /* Pods_TestExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A3DECE9C4CFEE21BE5D7CC /* Pods_TestExampleUITests.framework */; };
 		44F8767FBB9476B1302CDCCB /* Pods_TestExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81ADE9B750448EA76B7D3A09 /* Pods_TestExample.framework */; };
 		A191D63EA48E95AD025F732B /* Pods_TestExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9B7512C195959D7261DB5E /* Pods_TestExampleTests.framework */; };
 		FD6559882351483900ACAA02 /* Cuckoo.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6559872351483900ACAA02 /* Cuckoo.generated.swift */; };
+		FD65598A23514CD700ACAA02 /* QuickNimbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65598923514CD700ACAA02 /* QuickNimbleTests.swift */; };
+		FD65598C23514D1700ACAA02 /* CuckooNimbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65598B23514D1700ACAA02 /* CuckooNimbleTests.swift */; };
 		FDCB0EA9235134E300C313C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB0EA8235134E300C313C9 /* AppDelegate.swift */; };
 		FDCB0EAB235134E300C313C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB0EAA235134E300C313C9 /* SceneDelegate.swift */; };
 		FDCB0EB2235134E400C313C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCB0EB1235134E400C313C9 /* Assets.xcassets */; };
 		FDCB0EB5235134E400C313C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCB0EB3235134E400C313C9 /* LaunchScreen.storyboard */; };
-		FDCB0EC0235134E500C313C9 /* TestExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB0EBF235134E500C313C9 /* TestExampleTests.swift */; };
-		FDCB0ECB235134E500C313C9 /* TestExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB0ECA235134E500C313C9 /* TestExampleUITests.swift */; };
+		FDCB0EC0235134E500C313C9 /* DefaultToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB0EBF235134E500C313C9 /* DefaultToolTests.swift */; };
 		FDCB0EF22351359B00C313C9 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB0EEB2351359B00C313C9 /* HomePresenter.swift */; };
 		FDCB0EF32351359B00C313C9 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB0EEC2351359B00C313C9 /* HomeWorker.swift */; };
 		FDCB0EF42351359B00C313C9 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB0EED2351359B00C313C9 /* HomeRouter.swift */; };
@@ -28,13 +28,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		FDCB0EBC235134E500C313C9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FDCB0E9D235134E300C313C9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FDCB0EA4235134E300C313C9;
-			remoteInfo = TestExample;
-		};
-		FDCB0EC7235134E500C313C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FDCB0E9D235134E300C313C9 /* Project object */;
 			proxyType = 1;
@@ -54,6 +47,8 @@
 		81ADE9B750448EA76B7D3A09 /* Pods_TestExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9B7512C195959D7261DB5E /* Pods_TestExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6559872351483900ACAA02 /* Cuckoo.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cuckoo.generated.swift; sourceTree = "<group>"; };
+		FD65598923514CD700ACAA02 /* QuickNimbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNimbleTests.swift; sourceTree = "<group>"; };
+		FD65598B23514D1700ACAA02 /* CuckooNimbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuckooNimbleTests.swift; sourceTree = "<group>"; };
 		FDCB0EA5235134E300C313C9 /* TestExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCB0EA8235134E300C313C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDCB0EAA235134E300C313C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,11 +56,8 @@
 		FDCB0EB4235134E400C313C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDCB0EB6235134E400C313C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDCB0EBB235134E500C313C9 /* TestExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDCB0EBF235134E500C313C9 /* TestExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExampleTests.swift; sourceTree = "<group>"; };
+		FDCB0EBF235134E500C313C9 /* DefaultToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultToolTests.swift; sourceTree = "<group>"; };
 		FDCB0EC1235134E500C313C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDCB0EC6235134E500C313C9 /* TestExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDCB0ECA235134E500C313C9 /* TestExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExampleUITests.swift; sourceTree = "<group>"; };
-		FDCB0ECC235134E500C313C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDCB0EEB2351359B00C313C9 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		FDCB0EEC2351359B00C313C9 /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
 		FDCB0EED2351359B00C313C9 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
@@ -89,14 +81,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A191D63EA48E95AD025F732B /* Pods_TestExampleTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDCB0EC3235134E500C313C9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03D63B2B3011C7496D8BB3A1 /* Pods_TestExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,13 +110,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FD6559852351480100ACAA02 /* SupportingFiles */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
 		FD6559862351482100ACAA02 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,7 +123,6 @@
 			children = (
 				FDCB0EA7235134E300C313C9 /* TestExample */,
 				FDCB0EBE235134E500C313C9 /* TestExampleTests */,
-				FDCB0EC9235134E500C313C9 /* TestExampleUITests */,
 				FDCB0EA6235134E300C313C9 /* Products */,
 				6377961EE31BB817BF244324 /* Pods */,
 				CBD1A7403A84FE3D3ADF8960 /* Frameworks */,
@@ -158,7 +134,6 @@
 			children = (
 				FDCB0EA5235134E300C313C9 /* TestExample.app */,
 				FDCB0EBB235134E500C313C9 /* TestExampleTests.xctest */,
-				FDCB0EC6235134E500C313C9 /* TestExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,21 +150,13 @@
 		FDCB0EBE235134E500C313C9 /* TestExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				FD6559862351482100ACAA02 /* SupportingFiles */,
-				FDCB0EBF235134E500C313C9 /* TestExampleTests.swift */,
 				FDCB0EC1235134E500C313C9 /* Info.plist */,
+				FD6559862351482100ACAA02 /* SupportingFiles */,
+				FDCB0EBF235134E500C313C9 /* DefaultToolTests.swift */,
+				FD65598923514CD700ACAA02 /* QuickNimbleTests.swift */,
+				FD65598B23514D1700ACAA02 /* CuckooNimbleTests.swift */,
 			);
 			path = TestExampleTests;
-			sourceTree = "<group>";
-		};
-		FDCB0EC9235134E500C313C9 /* TestExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FD6559852351480100ACAA02 /* SupportingFiles */,
-				FDCB0ECA235134E500C313C9 /* TestExampleUITests.swift */,
-				FDCB0ECC235134E500C313C9 /* Info.plist */,
-			);
-			path = TestExampleUITests;
 			sourceTree = "<group>";
 		};
 		FDCB0ED8235134F100C313C9 /* SupportingFiles */ = {
@@ -269,25 +236,6 @@
 			productReference = FDCB0EBB235134E500C313C9 /* TestExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FDCB0EC5235134E500C313C9 /* TestExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FDCB0ED5235134E500C313C9 /* Build configuration list for PBXNativeTarget "TestExampleUITests" */;
-			buildPhases = (
-				5990727A8D4F1CB833DB5F42 /* [CP] Check Pods Manifest.lock */,
-				FDCB0EC2235134E500C313C9 /* Sources */,
-				FDCB0EC3235134E500C313C9 /* Frameworks */,
-				FDCB0EC4235134E500C313C9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FDCB0EC8235134E500C313C9 /* PBXTargetDependency */,
-			);
-			name = TestExampleUITests;
-			productName = TestExampleUITests;
-			productReference = FDCB0EC6235134E500C313C9 /* TestExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -302,10 +250,6 @@
 						CreatedOnToolsVersion = 11.0;
 					};
 					FDCB0EBA235134E500C313C9 = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = FDCB0EA4235134E300C313C9;
-					};
-					FDCB0EC5235134E500C313C9 = {
 						CreatedOnToolsVersion = 11.0;
 						TestTargetID = FDCB0EA4235134E300C313C9;
 					};
@@ -326,7 +270,6 @@
 			targets = (
 				FDCB0EA4235134E300C313C9 /* TestExample */,
 				FDCB0EBA235134E500C313C9 /* TestExampleTests */,
-				FDCB0EC5235134E500C313C9 /* TestExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -343,13 +286,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FDCB0EB9235134E500C313C9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDCB0EC4235134E500C313C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,28 +310,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestExample/Pods-TestExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5990727A8D4F1CB833DB5F42 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TestExampleUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C552AE2E3F46A5A1B229A116 /* [CP] Embed Pods Frameworks */ = {
@@ -499,16 +413,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD65598C23514D1700ACAA02 /* CuckooNimbleTests.swift in Sources */,
+				FD65598A23514CD700ACAA02 /* QuickNimbleTests.swift in Sources */,
 				FD6559882351483900ACAA02 /* Cuckoo.generated.swift in Sources */,
-				FDCB0EC0235134E500C313C9 /* TestExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDCB0EC2235134E500C313C9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDCB0ECB235134E500C313C9 /* TestExampleUITests.swift in Sources */,
+				FDCB0EC0235134E500C313C9 /* DefaultToolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,11 +427,6 @@
 			isa = PBXTargetDependency;
 			target = FDCB0EA4235134E300C313C9 /* TestExample */;
 			targetProxy = FDCB0EBC235134E500C313C9 /* PBXContainerItemProxy */;
-		};
-		FDCB0EC8235134E500C313C9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FDCB0EA4235134E300C313C9 /* TestExample */;
-			targetProxy = FDCB0EC7235134E500C313C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -733,46 +636,6 @@
 			};
 			name = Release;
 		};
-		FDCB0ED6235134E500C313C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36A5F08657D822FC90B46102 /* Pods-TestExampleUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TestExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.callidus.TestExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TestExample;
-			};
-			name = Debug;
-		};
-		FDCB0ED7235134E500C313C9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 754C663A4C76E4B14AF4CFA4 /* Pods-TestExampleUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TestExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.callidus.TestExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TestExample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -799,15 +662,6 @@
 			buildConfigurations = (
 				FDCB0ED3235134E500C313C9 /* Debug */,
 				FDCB0ED4235134E500C313C9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FDCB0ED5235134E500C313C9 /* Build configuration list for PBXNativeTarget "TestExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FDCB0ED6235134E500C313C9 /* Debug */,
-				FDCB0ED7235134E500C313C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

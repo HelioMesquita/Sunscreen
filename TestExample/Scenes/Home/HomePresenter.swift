@@ -16,12 +16,10 @@ import UIKit
 
 protocol HomePresentationLogic {
     func showInvalidData()
-    func weightBelowBormal()
+    func weightBelowNormal()
     func normalWeight()
     func overweight()
-    func obesityI()
-    func obesityII()
-    func obesityIII()
+    func obesity()
 }
 
 class HomePresenter: HomePresentationLogic {
@@ -32,8 +30,8 @@ class HomePresenter: HomePresentationLogic {
         viewController?.showResult(text: "The inserted data is invalid")
     }
 
-    func weightBelowBormal() {
-        viewController?.showResult(text: "You are under weight")
+    func weightBelowNormal() {
+        viewController?.showResult(text: "Your weight is below the normal")
     }
 
     func normalWeight() {
@@ -44,16 +42,8 @@ class HomePresenter: HomePresentationLogic {
         viewController?.showResult(text: "You are overweight")
     }
 
-    func obesityI() {
+    func obesity() {
         viewController?.showResult(text: "You are Obesity I")
-    }
-
-    func obesityII() {
-        viewController?.showResult(text: "You are Obesity II")
-    }
-
-    func obesityIII() {
-        viewController?.showResult(text: "You are Obesity III")
     }
 
 }

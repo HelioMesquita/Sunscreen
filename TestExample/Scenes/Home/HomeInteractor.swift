@@ -40,17 +40,13 @@ class HomeInteractor: HomeBusinessLogic, HomeDataStore {
 
         switch bmiResult {
         case ..<18:
-            presenter?.weightBelowBormal()
+            presenter?.weightBelowNormal()
         case 18.1...24.9:
             presenter?.normalWeight()
         case 25...29.9:
             presenter?.overweight()
-        case 30...34.9:
-            presenter?.obesityI()
-        case 35...39.9:
-            presenter?.obesityII()
-        case 40...:
-            presenter?.obesityIII()
+        case 30...:
+            presenter?.obesity()
         default:
             presenter?.showInvalidData()
         }
