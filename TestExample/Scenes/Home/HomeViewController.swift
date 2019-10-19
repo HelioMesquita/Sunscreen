@@ -18,7 +18,6 @@ protocol HomeDisplayLogic: class {
 
 class HomeViewController: UIViewController {
 
-
     @IBOutlet weak var heightField: UITextField!
     @IBOutlet weak var weightField: UITextField!
     @IBOutlet weak var resultLabel: UILabel!

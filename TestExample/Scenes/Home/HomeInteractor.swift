@@ -50,7 +50,6 @@ class HomeInteractor: HomeBusinessLogic, HomeDataStore {
         default:
             presenter?.showInvalidData()
         }
-
     }
 
 }

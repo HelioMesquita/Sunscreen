@@ -71,7 +71,7 @@ class QuickNimbleTests: QuickSpec {
                         }
                         context("invalid text") {
                             it("calls show invalid data") {
-                                self.subject.verifyBMI(height: "1.72", weight: "name")
+                                self.subject.verifyBMI(height: "1.72", weight: "80,5")
 
                                 expect(self.dummyHomePresenter.hasCalledShowInvalidData).to(beTrue())
                             }
