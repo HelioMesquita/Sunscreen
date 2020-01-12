@@ -21,7 +21,7 @@ DEPENDENCIES:
   - Quick
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Cuckoo
     - Nimble
     - PromiseKit
@@ -33,6 +33,6 @@ SPEC CHECKSUMS:
   PromiseKit: e4863d06976e7dee5e41c04fc7371c16b3600292
   Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
 
-PODFILE CHECKSUM: e027b3f90fa9b5becb8b7d5857122bffb7d1b4a2
+PODFILE CHECKSUM: a4cfb15bff215b320c9cd0121356a9b365c45436
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4

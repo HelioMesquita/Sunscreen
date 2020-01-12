@@ -1,4 +1,4 @@
-// MARK: - Mocks generated from file: TestExample/Scenes/Home/HomeInteractor.swift at 2019-10-19 21:51:28 +0000
+// MARK: - Mocks generated from file: TestExample/Scenes/Home/HomeInteractor.swift at 2020-01-12 02:10:57 +0000
 
 //
 //  HomeInteractor.swift
@@ -305,7 +305,7 @@ import UIKit
 }
 
 
-// MARK: - Mocks generated from file: TestExample/Scenes/Home/HomePresenter.swift at 2019-10-19 21:51:28 +0000
+// MARK: - Mocks generated from file: TestExample/Scenes/Home/HomePresenter.swift at 2020-01-12 02:10:57 +0000
 
 //
 //  HomePresenter.swift
@@ -791,7 +791,7 @@ import UIKit
 }
 
 
-// MARK: - Mocks generated from file: TestExample/Scenes/Home/HomeWorker.swift at 2019-10-19 21:51:28 +0000
+// MARK: - Mocks generated from file: TestExample/Scenes/Home/HomeWorker.swift at 2020-01-12 02:10:57 +0000
 
 //
 //  HomeWorker.swift

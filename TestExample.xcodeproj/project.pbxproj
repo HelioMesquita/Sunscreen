@@ -24,6 +24,7 @@
 		FDCB0EF62351359B00C313C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB0EEF2351359B00C313C9 /* HomeViewController.swift */; };
 		FDCB0EF72351359B00C313C9 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB0EF02351359B00C313C9 /* HomeInteractor.swift */; };
 		FDCB0EF82351359B00C313C9 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDCB0EF12351359B00C313C9 /* HomeViewController.xib */; };
+		FDDC167523CAB68800970EF8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC167423CAB68800970EF8 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		FDCB0EEF2351359B00C313C9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FDCB0EF02351359B00C313C9 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		FDCB0EF12351359B00C313C9 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		FDDC167423CAB68800970EF8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		FDCB0EA7235134E300C313C9 /* TestExample */ = {
 			isa = PBXGroup;
 			children = (
+				FDDC167323CAB67700970EF8 /* Application */,
 				FDCB0ED92351350C00C313C9 /* Scenes */,
 				FDCB0ED8235134F100C313C9 /* SupportingFiles */,
 			);
@@ -162,11 +165,9 @@
 		FDCB0ED8235134F100C313C9 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				FDCB0EA8235134E300C313C9 /* AppDelegate.swift */,
 				FDCB0EB1235134E400C313C9 /* Assets.xcassets */,
 				FDCB0EB6235134E400C313C9 /* Info.plist */,
 				FDCB0EB3235134E400C313C9 /* LaunchScreen.storyboard */,
-				FDCB0EAA235134E300C313C9 /* SceneDelegate.swift */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -191,6 +192,16 @@
 				FDCB0EF12351359B00C313C9 /* HomeViewController.xib */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		FDDC167323CAB67700970EF8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC167423CAB68800970EF8 /* main.swift */,
+				FDCB0EA8235134E300C313C9 /* AppDelegate.swift */,
+				FDCB0EAA235134E300C313C9 /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,6 +411,7 @@
 			files = (
 				FDCB0EF22351359B00C313C9 /* HomePresenter.swift in Sources */,
 				FDCB0EA9235134E300C313C9 /* AppDelegate.swift in Sources */,
+				FDDC167523CAB68800970EF8 /* main.swift in Sources */,
 				FDCB0EF32351359B00C313C9 /* HomeWorker.swift in Sources */,
 				FDCB0EF72351359B00C313C9 /* HomeInteractor.swift in Sources */,
 				FDCB0EAB235134E300C313C9 /* SceneDelegate.swift in Sources */,
