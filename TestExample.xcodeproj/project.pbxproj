@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		44F8767FBB9476B1302CDCCB /* Pods_TestExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81ADE9B750448EA76B7D3A09 /* Pods_TestExample.framework */; };
 		A191D63EA48E95AD025F732B /* Pods_TestExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9B7512C195959D7261DB5E /* Pods_TestExampleTests.framework */; };
-		FD6559882351483900ACAA02 /* Cuckoo.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6559872351483900ACAA02 /* Cuckoo.generated.swift */; };
 		FD65598A23514CD700ACAA02 /* QuickNimbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65598923514CD700ACAA02 /* QuickNimbleTests.swift */; };
 		FD65598C23514D1700ACAA02 /* CuckooNimbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65598B23514D1700ACAA02 /* CuckooNimbleTests.swift */; };
 		FDCB0EA9235134E300C313C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB0EA8235134E300C313C9 /* AppDelegate.swift */; };
@@ -47,7 +46,6 @@
 		7701E6CB7FA0B6E32143CDFC /* Pods-TestExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestExample.debug.xcconfig"; path = "Target Support Files/Pods-TestExample/Pods-TestExample.debug.xcconfig"; sourceTree = "<group>"; };
 		81ADE9B750448EA76B7D3A09 /* Pods_TestExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9B7512C195959D7261DB5E /* Pods_TestExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD6559872351483900ACAA02 /* Cuckoo.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cuckoo.generated.swift; sourceTree = "<group>"; };
 		FD65598923514CD700ACAA02 /* QuickNimbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNimbleTests.swift; sourceTree = "<group>"; };
 		FD65598B23514D1700ACAA02 /* CuckooNimbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuckooNimbleTests.swift; sourceTree = "<group>"; };
 		FDCB0EA5235134E300C313C9 /* TestExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,7 +113,6 @@
 		FD6559862351482100ACAA02 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				FD6559872351483900ACAA02 /* Cuckoo.generated.swift */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -427,7 +424,6 @@
 			files = (
 				FD65598C23514D1700ACAA02 /* CuckooNimbleTests.swift in Sources */,
 				FD65598A23514CD700ACAA02 /* QuickNimbleTests.swift in Sources */,
-				FD6559882351483900ACAA02 /* Cuckoo.generated.swift in Sources */,
 				FDCB0EC0235134E500C313C9 /* DefaultToolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
